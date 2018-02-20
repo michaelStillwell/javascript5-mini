@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Movie from 'Movie';
+import Movie from './Movie';
 
 class App extends Component {
 
@@ -21,7 +21,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Terrible Movies List:</h1>
-        [badMovies]
+        {badMovies}
       </div>
     );
   }
